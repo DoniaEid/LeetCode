@@ -16,15 +16,13 @@ public:
         long long num1 = p[0];
         long long num2 = p[1];
         
-        if (find(nums.begin(), nums.end(), (int)(num1 * -1)) == nums.end()) {
-        } else {
-            num1 *= -1;
-        }
-        
-        if (find(nums.begin(), nums.end(), (int)(num2 * -1)) == nums.end()) {
-        } else {
-            num2 *= -1;
-        }
+if (find(nums.begin(), nums.end(), (int)num1 * -1) != nums.end()) {
+    num1 *= -1; 
+}
+
+if (find(nums.begin(), nums.end(), (int)num2 * -1) != nums.end()) {
+    num2 *= -1; // رجعه سالب
+}
         
         long long t = num1 * num2;
         
