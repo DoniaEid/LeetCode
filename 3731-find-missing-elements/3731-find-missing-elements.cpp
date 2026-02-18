@@ -1,28 +1,23 @@
 #include <vector>
-#include <algorithm>
-#include <set>
+#include <algorithm> // للترتيب والبحث
 
 using namespace std;
 
 class Solution {
 public:
     vector<int> findMissingElements(vector<int>& nums) {
-        if (nums.empty()) return {};
-
         sort(nums.begin(), nums.end());
 
         vector<int> missing;
-        int current = nums[0];
-        int last = nums[nums.size() - 1]; 
-
-        set<int> s(nums.begin(), nums.end());
-
-        for (int x = current; x <= last; x++) {
-            if (s.find(x) == s.end()) {
+        int x = nums[0];   
+        for(int i = 0; i < nums.size(); i++) {
+            
+            if (find(nums.begin(), nums.end(), x) == nums.end()) {
                 missing.push_back(x); 
+                 i--;
             }
+            x++; 
         }
-
         return missing; 
     }
 };
