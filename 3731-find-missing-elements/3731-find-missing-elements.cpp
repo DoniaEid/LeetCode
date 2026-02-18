@@ -1,7 +1,3 @@
-#include <vector>
-#include <algorithm> // للترتيب والبحث
-
-using namespace std;
 
 class Solution {
 public:
