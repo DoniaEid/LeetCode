@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [3731-find-missing-elements](https://github.com/DoniaEid/LeetCode/tree/master/3731-find-missing-elements) |
 | [3815-design-auction-system](https://github.com/DoniaEid/LeetCode/tree/master/3815-design-auction-system) |
 ## Design
 |  |
@@ -17,4 +18,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3815-design-auction-system](https://github.com/DoniaEid/LeetCode/tree/master/3815-design-auction-system) |
+## Array
+|  |
+| ------- |
+| [3731-find-missing-elements](https://github.com/DoniaEid/LeetCode/tree/master/3731-find-missing-elements) |
+## Sorting
+|  |
+| ------- |
+| [3731-find-missing-elements](https://github.com/DoniaEid/LeetCode/tree/master/3731-find-missing-elements) |
 <!---LeetCode Topics End-->
