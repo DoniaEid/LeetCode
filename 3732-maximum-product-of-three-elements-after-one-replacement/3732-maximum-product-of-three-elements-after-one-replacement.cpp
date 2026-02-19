@@ -21,7 +21,7 @@ if (find(nums.begin(), nums.end(), (int)num1 * -1) != nums.end()) {
 }
 
 if (find(nums.begin(), nums.end(), (int)num2 * -1) != nums.end()) {
-    num2 *= -1; // رجعه سالب
+    num2 *= -1;
 }
         
         long long t = num1 * num2;
