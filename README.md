@@ -40,4 +40,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0693-binary-number-with-alternating-bits](https://github.com/DoniaEid/LeetCode/tree/master/0693-binary-number-with-alternating-bits) |
+## Two Pointers
+|  |
+| ------- |
+| [0696-count-binary-substrings](https://github.com/DoniaEid/LeetCode/tree/master/0696-count-binary-substrings) |
+## String
+|  |
+| ------- |
+| [0696-count-binary-substrings](https://github.com/DoniaEid/LeetCode/tree/master/0696-count-binary-substrings) |
 <!---LeetCode Topics End-->
