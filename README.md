@@ -50,4 +50,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0696-count-binary-substrings](https://github.com/DoniaEid/LeetCode/tree/master/0696-count-binary-substrings) |
+## Depth-First Search
+|  |
+| ------- |
+| [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/DoniaEid/LeetCode/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/DoniaEid/LeetCode/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+## Graph Theory
+|  |
+| ------- |
+| [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/DoniaEid/LeetCode/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 <!---LeetCode Topics End-->
