@@ -3,13 +3,7 @@ public:
     int countPrimeSetBits(int left, int right) {
         int count=0;
         for(int i=left;i<=right;i++){
-            string t=binary(i);
-            int c=0;
-            for(int i=0;i<t.size();i++){
-                if(t[i]=='1'){
-                    c++;
-                }
-            }
+            int c=binary(i);
             if(prime(c)){
                 count++;
             }
@@ -29,13 +23,19 @@ public:
         }
         return found;
     }
-    string binary(int num){
+    int binary(int num){
         string s="";
+        int c=0;
         while(num!=0){
             s+=(num%2)+'0';
             num/=2;
         }
-        return s;
+        for(int i=0;i<s.size();i++){
+            if(s[i]=='1'){
+                   c++;
+            }
+        }
+        return c;
     }
 
 
