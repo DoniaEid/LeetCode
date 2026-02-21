@@ -1,31 +1,38 @@
 class Solution {
 public:
     int count = 0;
+    vector<bool> visited;
 
-    void solve(int node, int parent, vector<vector<pair<int, int>>>& adj) {
-        for (auto& edge : adj[node]) {
-            int neighbor = edge.first;
-            int isOriginal = edge.second;
+    void dfs(int u, vector<vector<int>>& adj_out, vector<vector<int>>& adj_in) {
+        visited[u] = true;
 
-            if (neighbor != parent) {
-                if (isOriginal == 1) {
-                    count++;
-                }
-                solve(neighbor, node, adj);
+        for (int v : adj_out[u]) {
+            if (!visited[v]) {
+                count++; 
+                dfs(v, adj_out, adj_in);
+            }
+        }
+
+        for (int v : adj_in[u]) {
+            if (!visited[v]) {
+                dfs(v, adj_out, adj_in);
             }
         }
     }
 
     int minReorder(int n, vector<vector<int>>& connections) {
-        vector<vector<pair<int, int>>> adj(n);
+        vector<vector<int>> adj_out(n);
+        vector<vector<int>> adj_in(n); 
+        
         for (auto& c : connections) {
-            adj[c[0]].push_back({c[1], 1}); 
-            adj[c[1]].push_back({c[0], 0}); 
+            adj_out[c[0]].push_back(c[1]);
+            adj_in[c[1]].push_back(c[0]);
         }
 
+        visited.assign(n, false);
         count = 0;
-        solve(0, -1, adj);
-
+        dfs(0, adj_out, adj_in);
+        
         return count;
     }
 };
