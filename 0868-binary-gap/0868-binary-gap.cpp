@@ -1,17 +1,21 @@
 class Solution {
 public:
     int binaryGap(int n) {
-        int max_dist = 0;
-        int last_pos = -1;
-        
-        for (int i = 0; i < 32; i++) {
-            if ((n & (1 << i)) != 0) {
+        int max_gap = 0;
+        int last_pos = -1; 
+        int current_pos = 0;
+
+        while (n > 0) {
+            if (n % 2 == 1) {
                 if (last_pos != -1) {
-                    max_dist = max(max_dist, i - last_pos);
+                    max_gap = max(max_gap, current_pos - last_pos);
                 }
-                last_pos = i;
+                last_pos = current_pos;
             }
+            n /= 2;
+            current_pos++;
         }
-        return max_dist;
+
+        return max_gap;
     }
 };
