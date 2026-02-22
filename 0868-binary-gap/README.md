@@ -37,5 +37,5 @@ There are not any adjacent pairs of 1&#39;s in the binary representation of 8, s
 
 <ul>
 	<li><code>1 &lt;= n &lt;= 10<sup>9</sup></code></li>
-</ul>
-![binary_gap][G.png]
+</ul<img width="1037" height="716" alt="G png" src="https://github.com/user-attachments/assets/1dbb3e0a-bfd8-42ba-8196-7946d1f1e333" />
+>
