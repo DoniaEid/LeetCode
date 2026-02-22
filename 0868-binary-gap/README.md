@@ -38,4 +38,6 @@ There are not any adjacent pairs of 1&#39;s in the binary representation of 8, s
 <ul>
 	<li><code>1 &lt;= n &lt;= 10<sup>9</sup></code></li>
 <ul>
+
+	
 <img width="1037" height="716" alt="G png" src="https://github.com/user-attachments/assets/909d0d06-f8ab-4340-b3f4-44a74887d8b8" />
