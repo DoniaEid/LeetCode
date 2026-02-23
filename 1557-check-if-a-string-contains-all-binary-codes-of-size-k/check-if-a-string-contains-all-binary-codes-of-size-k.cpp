@@ -1,25 +1,17 @@
-#include <iostream>
-#include <string>
-#include <unordered_set>
-#include <cmath>
-
-using namespace std;
-
 class Solution {
 public:
     bool hasAllCodes(string s, int k) {
-        if (s.length() < k) return false;
+        int n = s.length();
+        if (n < k) return false;
 
-        unordered_set<string> seen;
-        int total_required = 1 << k; 
+        unordered_set<string> st;
 
-        for (int i = 0; i <= (int)s.length() - k; i++) {
-            string sub = s.substr(i, k);
-            seen.insert(sub);
-
-            if (seen.size() == total_required) return true;
+        for (int i = 0; i <= n - k; i++) {
+            string code = s.substr(i, k); 
+            st.insert(code); 
         }
 
-        return seen.size() == total_required;
+        int totalRequired = pow(2, k);
+        return st.size() == totalRequired;
     }
 };
