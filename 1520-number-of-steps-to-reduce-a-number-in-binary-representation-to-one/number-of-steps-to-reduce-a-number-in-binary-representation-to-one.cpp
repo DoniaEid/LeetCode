@@ -8,9 +8,9 @@ public:
             int bit = (s[i] - '0') + carry;
 
             if (bit % 2 == 0) {
-                steps += 1;      // divide
+                steps += 1;
             } else {
-                steps += 2;      // add + divide
+                steps += 2;
                 carry = 1;
             }
         }
