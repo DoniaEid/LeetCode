@@ -3,18 +3,15 @@ public:
     int numSteps(string s) {
         int steps = 0;
         int carry = 0;
-        int n = s.length();
 
-        for (int i = n - 1; i > 0; i--) {
-            int current = (s[i] - '0') + carry;
+        for (int i = s.size() - 1; i > 0; i--) {
+            int bit = (s[i] - '0') + carry;
 
-            if (current == 1) {
-                steps += 2;
-                carry = 1; 
-            } else {
+            if (bit % 2 == 0) {
                 steps += 1;
-                if (current == 2) carry = 1;
-                else carry = 0;
+            } else {
+                steps += 2;
+                carry = 1;
             }
         }
 
