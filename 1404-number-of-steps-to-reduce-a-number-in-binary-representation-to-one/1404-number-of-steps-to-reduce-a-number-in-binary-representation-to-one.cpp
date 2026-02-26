@@ -5,12 +5,10 @@ public:
 
         while (s != "1") {
 
-            // لو even
             if (s.back() == '0') {
-                s.pop_back();   // divide by 2
+                s.pop_back();  
             }
             else {
-                // add 1
                 int i = s.size() - 1;
 
                 while (i >= 0 && s[i] == '1') {
@@ -21,7 +19,7 @@ public:
                 if (i >= 0) {
                     s[i] = '1';
                 } else {
-                    s = '1' + s;  // كله كان 1
+                    s = '1' + s; 
                 }
             }
 
