@@ -2,19 +2,32 @@ class Solution {
 public:
     int numSteps(string s) {
         int steps = 0;
-        int carry = 0;
 
-        for (int i = s.size() - 1; i > 0; i--) {
-            int bit = (s[i] - '0') + carry;
+        while (s != "1") {
 
-            if (bit % 2 == 0) {
-                steps += 1;      // divide
-            } else {
-                steps += 2;      // add + divide
-                carry = 1;
+            // لو even
+            if (s.back() == '0') {
+                s.pop_back();   // divide by 2
             }
+            else {
+                // add 1
+                int i = s.size() - 1;
+
+                while (i >= 0 && s[i] == '1') {
+                    s[i] = '0';
+                    i--;
+                }
+
+                if (i >= 0) {
+                    s[i] = '1';
+                } else {
+                    s = '1' + s;  // كله كان 1
+                }
+            }
+
+            steps++;
         }
 
-        return steps + carry;
+        return steps;
     }
 };
