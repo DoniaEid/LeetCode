@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/DoniaEid/LeetCode/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 | [3815-design-auction-system](https://github.com/DoniaEid/LeetCode/tree/master/3815-design-auction-system) |
 ## Array
 |  |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/DoniaEid/LeetCode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/DoniaEid/LeetCode/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 | [3732-maximum-product-of-three-elements-after-one-replacement](https://github.com/DoniaEid/LeetCode/tree/master/3732-maximum-product-of-three-elements-after-one-replacement) |
 ## Greedy
 |  |
@@ -59,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0696-count-binary-substrings](https://github.com/DoniaEid/LeetCode/tree/master/0696-count-binary-substrings) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/DoniaEid/LeetCode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/DoniaEid/LeetCode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/DoniaEid/LeetCode/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -68,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/DoniaEid/LeetCode/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/DoniaEid/LeetCode/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Graph Theory
 |  |
 | ------- |
@@ -96,4 +100,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/DoniaEid/LeetCode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
+## Union-Find
+|  |
+| ------- |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/DoniaEid/LeetCode/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 <!---LeetCode Topics End-->
