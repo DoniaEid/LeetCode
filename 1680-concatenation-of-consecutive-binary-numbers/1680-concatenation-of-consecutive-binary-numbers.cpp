@@ -15,7 +15,6 @@ public:
                 nextPower *= 2;
             }
 
-            // نحسب result بدون shifts
             long long pow2 = 1;
             for (int j = 0; j < length; j++) {
                 pow2 = (pow2 * 2) % MOD;
