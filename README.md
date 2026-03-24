@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/DoniaEid/LeetCode/tree/master/0007-reverse-integer) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/DoniaEid/LeetCode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/DoniaEid/LeetCode/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/DoniaEid/LeetCode/tree/master/3666-minimum-operations-to-equalize-binary-string) |
