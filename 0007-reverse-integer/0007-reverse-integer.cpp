@@ -1,27 +1,19 @@
 class Solution {
 public:
     int reverse(int x) {
-        if (x == 0) return 0;
+        long long res = 0;
 
-        long long num = x;
-        bool neg = (num < 0);
+        while (x != 0) {
+            int digit = x % 10;
+            x /= 10;
 
-        if (neg) num = -num;
+            res = res * 10 + digit;
 
-        string s = "";
-
-        while (num != 0) {
-            s += (num % 10) + '0';
-            num /= 10;
+            // check overflow
+            if (res > INT_MAX || res < INT_MIN)
+                return 0;
         }
 
-        if (neg) s = "-" + s;
-
-        long long val = stoll(s);
-
-        if (val > INT_MAX || val < INT_MIN)
-            return 0;
-
-        return (int)val;
+        return (int)res;
     }
 };
