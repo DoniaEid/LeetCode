@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/DoniaEid/LeetCode/tree/master/0013-roman-to-integer) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/DoniaEid/LeetCode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [3731-find-missing-elements](https://github.com/DoniaEid/LeetCode/tree/master/3731-find-missing-elements) |
+| [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/DoniaEid/LeetCode/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3815-design-auction-system](https://github.com/DoniaEid/LeetCode/tree/master/3815-design-auction-system) |
 ## Design
 |  |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2906-construct-product-matrix](https://github.com/DoniaEid/LeetCode/tree/master/2906-construct-product-matrix) |
 | [3731-find-missing-elements](https://github.com/DoniaEid/LeetCode/tree/master/3731-find-missing-elements) |
 | [3732-maximum-product-of-three-elements-after-one-replacement](https://github.com/DoniaEid/LeetCode/tree/master/3732-maximum-product-of-three-elements-after-one-replacement) |
+| [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/DoniaEid/LeetCode/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 ## Sorting
 |  |
 | ------- |
