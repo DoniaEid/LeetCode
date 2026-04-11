@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/DoniaEid/LeetCode/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/DoniaEid/LeetCode/tree/master/0013-roman-to-integer) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/DoniaEid/LeetCode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [3731-find-missing-elements](https://github.com/DoniaEid/LeetCode/tree/master/3731-find-missing-elements) |
 | [3815-design-auction-system](https://github.com/DoniaEid/LeetCode/tree/master/3815-design-auction-system) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/DoniaEid/LeetCode/tree/master/0007-reverse-integer) |
+| [0013-roman-to-integer](https://github.com/DoniaEid/LeetCode/tree/master/0013-roman-to-integer) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/DoniaEid/LeetCode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/DoniaEid/LeetCode/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/DoniaEid/LeetCode/tree/master/3666-minimum-operations-to-equalize-binary-string) |
@@ -64,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/DoniaEid/LeetCode/tree/master/0013-roman-to-integer) |
 | [0696-count-binary-substrings](https://github.com/DoniaEid/LeetCode/tree/master/0696-count-binary-substrings) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/DoniaEid/LeetCode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/DoniaEid/LeetCode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
