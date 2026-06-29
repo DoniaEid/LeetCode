@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1833-maximum-ice-cream-bars](https://github.com/DoniaEid/LeetCode/tree/master/1833-maximum-ice-cream-bars) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/DoniaEid/LeetCode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/DoniaEid/LeetCode/tree/master/1848-minimum-distance-to-the-target-element) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/DoniaEid/LeetCode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2906-construct-product-matrix](https://github.com/DoniaEid/LeetCode/tree/master/2906-construct-product-matrix) |
 | [3731-find-missing-elements](https://github.com/DoniaEid/LeetCode/tree/master/3731-find-missing-elements) |
 | [3732-maximum-product-of-three-elements-after-one-replacement](https://github.com/DoniaEid/LeetCode/tree/master/3732-maximum-product-of-three-elements-after-one-replacement) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1189-maximum-number-of-balloons](https://github.com/DoniaEid/LeetCode/tree/master/1189-maximum-number-of-balloons) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/DoniaEid/LeetCode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/DoniaEid/LeetCode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/DoniaEid/LeetCode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/DoniaEid/LeetCode/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Depth-First Search
 |  |
