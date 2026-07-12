@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/DoniaEid/LeetCode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/DoniaEid/LeetCode/tree/master/0013-roman-to-integer) |
 | [1189-maximum-number-of-balloons](https://github.com/DoniaEid/LeetCode/tree/master/1189-maximum-number-of-balloons) |
+| [1331-rank-transform-of-an-array](https://github.com/DoniaEid/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/DoniaEid/LeetCode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [3731-find-missing-elements](https://github.com/DoniaEid/LeetCode/tree/master/3731-find-missing-elements) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/DoniaEid/LeetCode/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/DoniaEid/LeetCode/tree/master/0001-two-sum) |
+| [1331-rank-transform-of-an-array](https://github.com/DoniaEid/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/DoniaEid/LeetCode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1833-maximum-ice-cream-bars](https://github.com/DoniaEid/LeetCode/tree/master/1833-maximum-ice-cream-bars) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/DoniaEid/LeetCode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -42,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [1331-rank-transform-of-an-array](https://github.com/DoniaEid/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/DoniaEid/LeetCode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1833-maximum-ice-cream-bars](https://github.com/DoniaEid/LeetCode/tree/master/1833-maximum-ice-cream-bars) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/DoniaEid/LeetCode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
